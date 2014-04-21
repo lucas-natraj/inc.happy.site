@@ -1,0 +1,95 @@
+#respond,
+#respond.comment-respond {
+  font-size: 12px;
+  font-size: 1.2rem;
+  max-width: 680px;
+  margin: 5px auto;
+}
+#jp-post-flair .sharedaddy{
+  padding: 10px 0 0 0;
+}
+.pd-rating{
+  float: right;
+  font-size: 80%;
+}
+/* forces youtube to center align if doesn't go responsive */
+.wpcom-video-wrapper iframe,
+.wpcom-video-wrapper embed {
+  margin: 0 auto!important;
+  text-align: center!important;
+}
+#flickr_badge_wrapper {
+  background: transparent !important;
+  border: 0 !important;
+}
+#flickr_badge_uber_wrapper {
+  margin: 0 auto;
+}
+#flickr_badge_uber_wrapper td {
+  border: 0 !important;
+}
+.widget_recent_comments td {
+  border: 0;
+  padding: 16px 8px;
+  vertical-align: top;
+}
+.widget_authors ul,
+.widget_author_grid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.widget_authors img {
+  float: none;
+  vertical-align: middle;
+}
+.widget_authors li {
+  display: block;
+  margin-bottom: 20px;
+}
+.widget_authors li:before, .widget_authors li:after {
+  content: "";
+  display: table;
+}
+.widget_authors li:after {
+  clear: both;
+}
+.widget_authors a {
+  text-decoration: none;
+}
+.milestone-header{
+  background-color: rgba( 0, 0, 0, 0.08 )!important;
+}
+.milestone-countdown,
+.milestone-message{
+  background-color: rgba( 0, 0, 0, 0.02 )!important;
+  border: 0!important;
+  color: #eee!important;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  #respond,
+  #respond.comment-respond {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 80px auto;
+    padding: 0;
+  }
+
+  #jp-post-flair .sharedaddy{
+    padding: 20px 0 0 0;
+  }
+}
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 64.063em) {
+  #respond,
+  #respond.comment-respond {
+    font-size: 14px;
+    font-size: 1.4rem;
+    margin: 80px auto;
+    padding: 0;
+  }
+
+  #jp-post-flair .sharedaddy{
+    padding: 40px 0 0 0;
+  }
+}
